@@ -1,0 +1,10 @@
+1) git clone https://github.com/dacomo2021daw2/prjava02.git
+5) git status && git ls-tree -r main
+6) No la puc veure perque els canvis van ser fets a branca00 no a main.
+7) git checkout branca00
+7) Ara si la puc veure perque hi soc a branca00 (Es on es va fer aquest commit)
+10b) git merge branca00
+12) git push
+12c) Per defecte solament es fa push de la branca on apunta HEAD localment. Per pujar totes les branques alhora deuria d'executar 'git push --all origin'
+14a) git push --set-upstream origin branca01
+14c) Esta a 1 commit de distancia
